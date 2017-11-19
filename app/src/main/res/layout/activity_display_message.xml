@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="nl.appli.projectl.DisplayMessageActivity">
+
+
+
+    <RadioButton
+        android:id="@+id/radio_select_shirt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/radio_select_shirt"
+        android:onClick="showInputShirt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioButton
+        android:id="@+id/radio_select_pants"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="28dp"
+        android:onClick="showInputPant"
+        android:text="@string/radio_select_pant"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/new_piece_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="76dp"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="@string/hint_new_piece_name"
+            android:text="@string/input_new_piece_name"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/new_piece_brand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="@string/hint_new_piece_brand"
+        android:text="@string/input_new_piece_brand"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/new_piece_name" />
+
+    <EditText
+        android:id="@+id/new_piece_shirt_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="@string/hint_new_piece_shirt_size"
+        android:text="@string/input_new_piece_shirt_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/new_piece_brand" />
+
+    <EditText
+        android:id="@+id/new_piece_pant_length_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="@string/hint_new_piece_pant_length_size"
+        android:text="@string/input_new_piece_pant_length_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/new_piece_brand" />
+
+    <EditText
+        android:id="@+id/new_piece_pant_waist_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:hint="@string/hint_new_piece_pant_waist_size"
+        android:inputType="text"
+        android:text="@string/input_new_piece_pant_waist_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/new_piece_shirt_size" />
+
+</android.support.constraint.ConstraintLayout>

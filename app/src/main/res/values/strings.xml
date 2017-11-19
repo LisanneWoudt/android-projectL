@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ProjectL</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="text_ready">Ready to swap? :)</string>
+    <string name="input_type_text"></string>
+    <string name="input_new_piece_name"></string>
+    <string name="input_new_piece_brand"></string>
+    <string name="input_new_piece_shirt_size"></string>
+    <string name="input_new_piece_pant_waist_size"></string>
+    <string name="input_new_piece_pant_length_size"></string>
+    <string name="hint_new_piece_name">Name</string>
+    <string name="hint_new_piece_brand">Brand</string>
+    <string name="hint_new_piece_shirt_size">Size (e.g. 34, 38 or S, M,..)</string>
+    <string name="hint_new_piece_pant_waist_size">Waist size (e.g. 38, 40,..)</string>
+    <string name="hint_new_piece_pant_length_size">Length size (e.g. 30, 32,..)</string>
+    <string name="button_upload_piece">Add a piece of clothing</string>
+    <string name="button_take_picture">Upload a picture</string>
+    <string name="radio_select_shirt">Shirt</string>
+    <string name="radio_select_pant">Pant</string>
+</resources>
